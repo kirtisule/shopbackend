@@ -1,9 +1,533 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+"product":[
+ {
+    "id":1,
+  "rating": 4,
+  "img": "https://www.myntra.com/tshirts/huetrap/huetrap-men-beige--black-typography-printed-sustainable-t-shirt/11148764/buy",
+  "brand": "Huetrap",
+  "title": "Typography Print T-shirt",
+  "size": "M",
+  "discounted_price": 296,
+  "original": 1099,
+  "discount": 0.73
+ },
+ {
+    "id":2,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/roadster/roadster-men-black-cotton-pure-cotton-t-shirt/1996777/buy",
+  "brand": "Roadster",
+  "title": "Men Cotton Pure Cotton T-shirt",
+  "size": "M",
+  "discounted_price": 324,
+  "original": 499,
+  "discount": 0.35
+ },
+ {
+    "id":3,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/hrx-by-hrithik-roshan/hrx-by-hrithik-roshan-men-teal-blue-printed-pure-cotton-t-shirt/1700871/buy",
+  "brand": "HRX by Hrithik Roshan",
+  "title": "Printed Pure Cotton T-shirt",
+  "size": "M",
+  "discounted_price": 349,
+  "original": 699,
+  "discount": 0.5
+ },
+ {
+    "id":4,
+  "rating": "4.1",
+  "img": "https://www.myntra.com/tshirts/difference-of-opinion/difference-of-opinion-men-mint-green-round-neck-drop-shoulder-sleeves-cotton-loose-t-shirt/16407468/buy",
+  "brand": "Difference of Opinion",
+  "title": "Men Solid Oversized Cotton",
+  "size": "M",
+  "discounted_price": 532,
+  "original": 1299,
+  "discount": 0.59
+ },
+ {
+    "id":5,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/minions-by-kook-n-keech/minions-by-kook-n-keech-men-purple-boxy-fit-printed-round-neck-pure-cotton-t-shirt/8923841/buy",
+  "brand": "Minions by Kook N Keech",
+  "title": "Printed Round Neck Pure Cotton T-shirt",
+  "size": "XXL",
+  "discounted_price": 604,
+  "original": 1099,
+  "discount": 0.45
+ },
+ {
+    "id":6,
+  "img": "https://www.myntra.com/tshirts/technosport/technosport-men-antimicrobial-active-t-shirt/21770810/buy",
+  "brand": "Technosport",
+  "title": "Antimicrobial Active T-shirt",
+  "size": "XL"
+ },
+ {
+    "id":7,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/roadster/roadster-men-white--pure-cotton-t-shirt/2275365/buy",
+  "brand": "Roadster",
+  "title": "Pure Cotton T-shirt",
+  "size": "L",
+  "discounted_price": 374,
+  "original": 499,
+  "discount": 0.25
+ },
+ {
+    "id":8,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/hrx-by-hrithik-roshan/hrx-by-hrithik-roshan-men-yellow-printed-cotton-pure-cotton-t-shirt/1700944/buy",
+  "brand": "HRX by Hrithik Roshan",
+  "title": "Printed Cotton Pure Cotton T-shirt",
+  "size": "S",
+  "discounted_price": 454,
+  "original": 699,
+  "discount": 0.35
+ },
+ {
+    "id":9,
+  "rating": "4.6",
+  "img": "https://www.myntra.com/tshirts/louis-philippe/louis-philippe-men-navy-blue-polo-collar-t-shirt/14047672/buy",
+  "brand": "Louis Philippe",
+  "title": "Polo Collar T-shirt",
+  "size": "S",
+  "discounted_price": 1044,
+  "original": 1899,
+  "discount": 0.45
+ },
+ {
+    "id":10,
+  "rating": "3.9",
+  "img": "https://www.myntra.com/tshirts/roadster/roadster-men-grey-melange-longline-t-shirt-with-raw-edges/1824340/buy",
+  "brand": "Roadster",
+  "title": "Longline T-shirt with Raw Edge",
+  "size": "S",
+  "discounted_price": 359,
+  "original": 799,
+  "discount": 0.55
+ },
+ {
+    "id":11,
+  "rating": "4.4",
+  "img": "https://www.myntra.com/tshirts/roadster/roadster-men-green--white-colourblocked-round-neck-pure-cotton-t-shirt/13622286/buy",
+  "brand": "Roadster",
+  "title": "Colourblocked Pure Cotton",
+  "size": "L",
+  "discounted_price": 454,
+  "original": 699,
+  "discount": 0.35
+ },
+ {
+    "id":12,
+  "rating": "4.1",
+  "img": "https://www.myntra.com/tshirts/urbano-fashion/urbano-fashion-men-teal-green-slim-fit-tropical-printed-pure-cotton-t-shirt/12377258/buy",
+  "brand": "Urbano Fashion",
+  "title": "Slim Tropical Printed Pure Cotton T-shirt",
+  "size": "S",
+  "discounted_price": 461,
+  "original": 1099,
+  "discount": 0.58
+ },
+ {
+    "id":13,
+  "rating": "4.4",
+  "img": "https://www.myntra.com/tshirts/hrx-by-hrithik-roshan/hrx-by-hrithik-roshan-ultralyte-men-black-running-t-shirt/10106341/buy",
+  "brand": "HRX by Hrithik Roshan",
+  "title": "Ultralyte Men Running T-shirt",
+  "size": "S",
+  "discounted_price": 449,
+  "original": 899,
+  "discount": 0.5
+ },
+ {
+    "id":14,
+  "rating": "4",
+  "img": "https://www.myntra.com/tshirts/hm/hm-men-3-pack-regular-fit-pure-cotton-round-neck-t-shirts/22283810/buy",
+  "brand": "H&M",
+  "title": "Men 3-Pack Cotton T-shirts",
+  "size": "XS"
+ },
+ {
+    "id":15,
+  "rating": "4.4",
+  "img": "https://www.myntra.com/tshirts/puma/puma-x-royal-challengers-bangalore-men-navy-blue--red-2022-fan-jersey/17535032/buy",
+  "brand": "Puma",
+  "title": "Men 2022 Fan Jersey",
+  "size": "XL",
+  "discounted_price": 1039,
+  "original": 1299,
+  "discount": 0.2
+ },
+ {
+    "id":16,
+  "rating": "4.1",
+  "img": "https://www.myntra.com/tshirts/roadster/the-roadster-lifestyle-co-men-charcoal-grey--black-colourblocked-polo-collar-pure-cotton-t-shirt/9242693/buy",
+  "brand": "Roadster",
+  "title": "Colourblocked Polo Collar Pure Cotton T-shirt",
+  "size": "M",
+  "discounted_price": 549,
+  "original": 1099,
+  "discount": 0.5
+ },
+ {
+    "id":17,
+  "rating": "4.1",
+  "img": "https://www.myntra.com/tshirts/dillinger/dillinger-men-solid-oversized-t-shirt/20355854/buy",
+  "brand": "DILLINGER",
+  "title": "Men Oversized T-shirt",
+  "size": "S",
+  "discounted_price": 495,
+  "original": 799,
+  "discount": 0.38
+ },
+ {
+    "id":18,
+  "rating": "4.4",
+  "img": "https://www.myntra.com/tshirts/allen-solly/allen-solly-men-blue-solid-polo-collar-pure-cotton-t-shirt/10766822/buy",
+  "brand": "Allen Solly",
+  "title": "Solid Polo Collar Pure Cotton T-shirt",
+  "size": "M",
+  "discounted_price": 649,
+  "original": 999,
+  "discount": 0.35
+ },
+ {
+    "id":19,
+  "img": "https://www.myntra.com/tshirts/technosport/technosport-men-antimicrobial-active-t-shirt/21796306/buy",
+  "brand": "Technosport",
+  "title": "Men Antimicrobial Active Tee",
+  "size": "M"
+ },
+ {
+    "id":20,
+  "rating": "4.3",
+  "img": "https://www.myntra.com/tshirts/hrx-by-hrithik-roshan/hrx-by-hrithik-roshan-men-black-rapid-dry-running-t-shirt/10565566/buy",
+  "brand": "HRX by Hrithik Roshan",
+  "title": "Running Rapid Dry T-shirt",
+  "size": "XL",
+  "discounted_price": 449,
+  "original": 899,
+  "discount": 0.5
+ },
+ {
+    "id":21,
+  "rating": "4.4",
+  "img": "https://www.myntra.com/tshirts/puma/puma-men-black-solid-round-neck-cotton-t-shirt/14162870/buy",
+  "brand": "Puma",
+  "title": "Men Round Neck Cotton T-shirt",
+  "size": "XS",
+  "discounted_price": 499,
+  "original": 999,
+  "discount": 0.5
+ },
+ {
+    "id":22,
+  "rating": "4.6",
+  "img": "https://www.myntra.com/tshirts/louis-philippe-sport/louis-philippe-sport-men-navy-blue--yellow-striped-polo-collar-t-shirt/20324896/buy",
+  "brand": "Louis Philippe Sport",
+  "title": "Men Striped Polo Collar T-shirt",
+  "size": "L",
+  "discounted_price": 1179,
+  "original": 1999,
+  "discount": 0.41
+ },
+ {
+    "id":23,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/roadster/roadster-men-brown-melange-henley-neck-t-shirt/1996770/buy",
+  "brand": "Roadster",
+  "title": "Henley Neck T-shirt",
+  "size": "S",
+  "discounted_price": 324,
+  "original": 499,
+  "discount": 0.35
+ },
+ {
+    "id":24,
+  "rating": "4.1",
+  "img": "https://www.myntra.com/tshirts/veirdo/veirdo-men-white-camouflage-printed-loose-oversize-cotton-t-shirt/17868156/buy",
+  "brand": "VEIRDO",
+  "title": "Men Camouflage Printed Loose T-shirt",
+  "size": "XXL",
+  "discounted_price": 419,
+  "original": 1199,
+  "discount": 0.65
+ },
+ {
+    "id":25,
+  "rating": "4.6",
+  "img": "https://www.myntra.com/tshirts/levis/levis-men-pure-cotton-polo-collar-t-shirt/20516498/buy",
+  "brand": "Levis",
+  "title": "Men Pure Cotton  T-shirt",
+  "size": "M",
+  "discounted_price": 1169,
+  "original": 1799,
+  "discount": 0.35
+ },
+ {
+    "id":26,
+  "rating": "3.6",
+  "img": "https://www.myntra.com/tshirts/technosport/technosport-colourblocked-henley-neck-antimicrobial-t-shirt/21796326/buy",
+  "brand": "Technosport",
+  "title": "Henley Neck T-Shirt",
+  "size": "M"
+ },
+ {
+    "id":27,
+  "rating": "4.4",
+  "img": "https://www.myntra.com/tshirts/levis/levis-men-black-brand-logo-printed-pure-cotton-t-shirt/18984114/buy",
+  "brand": "Levis",
+  "title": "Men Printed  Cotton T-shirt",
+  "size": "S",
+  "discounted_price": 974,
+  "original": 1499,
+  "discount": 0.35
+ },
+ {
+    "id":28,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/kook-n-keech-marvel/kook-n-keech-marvel-white-civil-war-print-pure-cotton-t-shirt/1293761/buy",
+  "brand": "Kook N Keech Marvel",
+  "title": "Printed Round Neck Pure Cotton T-shirt",
+  "size": "S",
+  "discounted_price": 399,
+  "original": 799,
+  "discount": 0.5
+ },
+ {
+    "id":29,
+  "rating": "4.3",
+  "img": "https://www.myntra.com/tshirts/hrx-by-hrithik-roshan/hrx-by-hrithik-roshan-men-navy-advanced-rapid-dry-t-shirt/2314400/buy",
+  "brand": "HRX by Hrithik Roshan",
+  "title": "Rapid Dry T-shirt",
+  "size": "S",
+  "discounted_price": 539,
+  "original": 899,
+  "discount": 0.4
+ },
+ {
+    "id":30,
+  "rating": "4.7",
+  "img": "https://www.myntra.com/tshirts/louis-philippe-sport/louis-philippe-sport-men-solid-polo-collar-t-shirt/21474632/buy",
+  "brand": "Louis Philippe Sport",
+  "title": "Men Solid Polo Collar T-shirt",
+  "size": "S",
+  "discounted_price": 1109,
+  "original": 1499,
+  "discount": 0.26
+ },
+ {
+    "id":31,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/roadster/roadster-men-black-printed-cotton-pure-cotton-t-shirt/8938905/buy",
+  "brand": "Roadster",
+  "title": "Printed Cotton Pure Cotton T-shirt",
+  "size": "S",
+  "discounted_price": 584,
+  "original": 899,
+  "discount": 0.35
+ },
+ {
+    "id":32,
+  "rating": "3.8",
+  "img": "https://www.myntra.com/tshirts/powerlook/powerlook-tie-and-dye-t-shirt/22002904/buy",
+  "brand": "Powerlook",
+  "title": "Tie And Dye T-shirt",
+  "size": "S",
+  "discounted_price": 760,
+  "original": 1299,
+  "discount": 539
+ },
+ {
+    "id":33,
+  "rating": "4.1",
+  "img": "https://www.myntra.com/tshirts/roadster/roadster-men-black-polo-collar-cotton-pure-cotton-t-shirt/1996801/buy",
+  "brand": "Roadster",
+  "title": "Polo Collar Cotton Pure Cotton T-shirt",
+  "size": "S",
+  "discounted_price": 539,
+  "original": 899,
+  "discount": 0.4
+ },
+ {
+    "id":34,
+  "rating": "4.1",
+  "img": "https://www.myntra.com/tshirts/roadster/roadster-men-black-solid-round-neck-t-shirt/2475892/buy",
+  "brand": "Roadster",
+  "title": "Solid Round Neck T-shirt",
+  "size": "S",
+  "discounted_price": 519,
+  "original": 799,
+  "discount": 0.35
+ },
+ {
+    "id":35,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/hm/hm-men-white-solid-cotton-pure-cotton-t-shirt-regular-fit/11468714/buy",
+  "brand": "H&M",
+  "title": "Cotton Pure Cotton T-shirt Regular Fit",
+  "size": "XS"
+ },
+ {
+    "id":36,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/hrx-by-hrithik-roshan/hrx-by-hrithik-roshan-men-black-raglan-sleeved-t-shirt/1987412/buy",
+  "brand": "HRX by Hrithik Roshan",
+  "title": "Raglan Sleeved T-shirt",
+  "size": "S",
+  "discounted_price": 359,
+  "original": 899,
+  "discount": 0.6
+ },
+ {
+    "id":37,
+  "rating": "4.3",
+  "img": "https://www.myntra.com/tshirts/nautica/nautica-men-burgundy--navy-blue-striped-polo-collar-pure-cotton-slim-fit-t-shirt/11487324/buy",
+  "brand": "Nautica",
+  "title": "Men Striped Cotton T-shirt",
+  "size": "S",
+  "discounted_price": 1039,
+  "original": 2599,
+  "discount": 0.6
+ },
+ {
+    "id":38,
+  "rating": "4.4",
+  "img": "https://www.myntra.com/tshirts/us-polo-assn-denim-co/u-s-polo-assn-denim-co-men--white-pure-cotton-brand-logo-printed-polo-collar-t-shirt/19182692/buy",
+  "brand": "U.S. Polo Assn. Denim Co.",
+  "title": "Men Pure Cotton T-shirt",
+  "size": "S",
+  "discounted_price": 1399,
+  "original": 1999,
+  "discount": 0.3
+ },
+ {
+    "id":39,
+  "img": "https://www.myntra.com/tshirts/technosport/technosport-polo-collar-antimicrobial-t-shirt/22172168/buy",
+  "brand": "Technosport",
+  "title": "Polo Collar T-shirt",
+  "size": "M"
+ },
+ {
+    "id":40,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/veirdo/veirdo-men-multicoloured-mickey-mouse-tie--dye-printed-cotton-oversize-t-shirt/18277922/buy",
+  "brand": "VEIRDO",
+  "title": "Men Mickey Oversize T-shirt",
+  "size": "XXL",
+  "discounted_price": 419,
+  "original": 1199,
+  "discount": 0.65
+ },
+ {
+    "id":41,
+  "rating": "4.3",
+  "img": "https://www.myntra.com/tshirts/dillinger/dillinger-men-black--purple-typography-printed-pure-cotton-loose-oversized-t-shirt/17240500/buy",
+  "brand": "DILLINGER",
+  "title": "Men Printed Loose T-shirt",
+  "size": "M",
+  "discounted_price": 545,
+  "original": 1399,
+  "discount": 0.61
+ },
+ {
+    "id":42,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/herenow/herenow-men-black--grey-striped-cotton-pure-cotton-t-shirt/9376057/buy",
+  "brand": "HERE&NOW",
+  "title": "Striped Cotton Pure Cotton T-shirt",
+  "size": "L",
+  "discounted_price": 479,
+  "original": 799,
+  "discount": 0.4
+ },
+ {
+    "id":43,
+  "rating": "4.1",
+  "img": "https://www.myntra.com/tshirts/roadster/roadster-men-white-polo-collar-t-shirt/2303672/buy",
+  "brand": "Roadster",
+  "title": "Polo Collar T-shirt",
+  "size": "S",
+  "discounted_price": 584,
+  "original": 899,
+  "discount": 0.35
+ },
+ {
+    "id":44,
+  "rating": "4.5",
+  "img": "https://www.myntra.com/tshirts/louis-philippe/louis-philippe-men-black-polo-collar-t-shirt/14047664/buy",
+  "brand": "Louis Philippe",
+  "title": "Polo Collar T-shirt",
+  "size": "S",
+  "discounted_price": 1234,
+  "original": 1899,
+  "discount": 0.35
+ },
+ {
+    "id":45,
+  "rating": "4",
+  "img": "https://www.myntra.com/tshirts/red-tape/red-tape-men-burgundy-polo-collar-pure-cotton-t-shirt/16999376/buy",
+  "brand": "Red Tape",
+  "title": "Men Polo Collar T-shirt",
+  "size": "S",
+  "discounted_price": 597,
+  "original": 2599,
+  "discount": 0.77
+ },
+ {
+    "id":46,
+  "rating": "4.1",
+  "img": "https://www.myntra.com/tshirts/wrogn/wrogn-men-green-slim-fit-polo-collar-cotton-pure-cotton-t-shirt/4699703/buy",
+  "brand": "WROGN",
+  "title": "Polo Collar Cotton Pure Cotton T-shirt",
+  "size": "M",
+  "discounted_price": 1199,
+  "original": 1599,
+  "discount": 0.25
+ },
+ {
+    "id":47,
+  "rating": "4.2",
+  "img": "https://www.myntra.com/tshirts/hrx-by-hrithik-roshan/hrx-by-hrithik-roshan-men-fluorescent-green-running-t-shirt-with-raglan-sleeves/7231694/buy",
+  "brand": "HRX by Hrithik Roshan",
+  "title": "Men Running T-shirt",
+  "size": "M",
+  "discounted_price": 449,
+  "original": 899,
+  "discount": 0.5
+ },
+ {
+    "id":48,
+  "rating": "4.4",
+  "img": "https://www.myntra.com/tshirts/us-polo-assn-denim-co/us-polo-assn-denim-co-men-navy-blue-printed-polo-collar-pure-cotton-slim-fit-t-shirt/19182448/buy",
+  "brand": "U.S. Polo Assn. Denim Co.",
+  "title": "Men Pure Cotton T-shirt",
+  "size": "L",
+  "discounted_price": 949,
+  "original": 1899,
+  "discount": 0.5
+ },
+ {
+    "id":49,
+  "rating": "3.9",
+  "img": "https://www.myntra.com/tshirts/roadster/roadster-time-travlr-men-white-sleveless-pure-cotton-t-shirt-with-raw-edges/2498491/buy",
+  "brand": "Roadster",
+  "title": "Time Travlr Sleveless Pure Cotton T-shirt",
+  "size": "L",
+  "discounted_price": 249,
+  "original": 499,
+  "discount": 0.5
+ },
+ {
+    "id":50,
+  "rating": "4.4",
+  "img": "https://www.myntra.com/tshirts/the-souled-store/the-souled-store-men-black-marvel-black-panther-logo-print-oversized-t-shirt/16713320/buy",
+  "brand": "The Souled Store",
+  "title": "Oversized T-Shirt",
+  "size": "L",
+  "discounted_price": 996,
+  "original": 1499,
+  "discount": 503
+ }
+]
 }
